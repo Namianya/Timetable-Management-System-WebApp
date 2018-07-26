@@ -4,9 +4,9 @@ This is a project I did during my final year in Campus as part of the fulfillmen
 
 # The project has three modules:
 
-i.   Student Module: For unit/course registration and profile management
-ii.  Lecturer Module: For changing the unit allocation and prescribed lecture halls
-iii. Administrator Module: For assigning lecturers to the course/unit,allocating lecture halls/rooms and times of lecture
+1.   Student Module: For unit/course registration and profile management
+2.  Lecturer Module: For changing the unit allocation and prescribed lecture halls
+3. Administrator Module: For assigning lecturers to the course/unit,allocating lecture halls/rooms and times of lecture
 
 # This project was generated using the following:
 
