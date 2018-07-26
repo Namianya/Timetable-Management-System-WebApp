@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Computer Science Timetable</title>
+<style>
+.title{
+  background:#990000;
+  padding:5px;
+  color:#fff;
+  border-radius:4px;
+  text-align:center;
+  width:900px;
+}
+.title2{
+  background: #0099FF;
+  padding:2px;
+  color:#fff;
+  border-radius:4px;
+  text-align:center;
+  width:440px;
+ }
+ #slides {
+      display: none;
+	  border: solid thin;
+	  border-radius: 5px;
+	  }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image:url(image/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image:url(image/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+	  margin-bottom:5px;
+	  margin-left:5px;
+    }
+    .slide {
+	width:900px;
+	height:200px;
+}
+</style>
+<script src="js/Untitled-1.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+</head>
+<body>
+<p>
+<br />
+Welcome to the <b>THE CATHOLIC UNIVERSITY OF EASTERN AFRICA computer science timetable System</b>. This System is available For use by<b> Authorized Users Only</b>. If you are not Authorized please click the 'LOGOUT' to <b>Exit</b> the Eystem.Otherwise, use the menu to the left to navigate through the System. Click on the links to visit specific parts of the System.</p>
+<br />
+<font face='comic sans ms' size='4'><p class='title'>
+COMPUTER SCIENCE EVENTS AFFECTING LECTURES</p>
+</font>
+<div class="slide">
+    <div id="slides">
+	<table border="1" height="180" width="300">
+	<tr><td width="450" height="170">
+	<center>
+	<font face='comic sans ms' size='4'> <p class="title2">IBM TRAINING EVENT</p></font>
+	</center>
+	IBM research lab will be carrying a training on 2/5/2014. The training will be from 8:00am to 5:00pm. All computer science students are allowed to attend the training but it is of more value to fourth year and third year students. Certificate of participation will be awarded to those who will attend.<br />
+	</td>
+	<td width="450" height="170">
+	<center>
+	<font face='comic sans ms' size='4' ><p class="title2">INTERDISPLINARY WEEK</p></font>
+	</center>
+Faculty of Science interdisplinary week for 2013-2014 academic year will be from 4/8/2014 to 8/8/2014. All faculty lecturers and students are encouraged to participate actively. Those willling to present are required to register in the faculty secretarial pool. Students and leccturers who will present will be awarded certificates<br />
+	</td></tr></table>
+	<table border="1" height="200" width="300">
+	<tr><td width="450" height="170">
+	<center>
+	<font face='comic sans ms' size='4'> <p class="title2">IBM TRAINING EVENT</p></font>
+	</center>
+	IBM research lab will be carrying a training on 2/5/2014. The training will be from 8:00am to 5:00pm. All computer science students are allowed to attend the training but it is of more value to fourth year and third year students. Certificate of participation will be awarded to those who will attend.<br />
+	</td>
+	<td width="450" height="170">
+	<center>
+	<font face='comic sans ms' size='4' ><p class="title2">INTERDISPLINARY WEEK</p></font>
+	</center>
+Faculty of Science interdisplinary week for 2013-2014 academic year will be from 4/8/2014 to 8/8/2014. All faculty lecturers and students are encouraged to participate actively. Those willling to present are required to register in the faculty secretarial pool. Students and leccturers who will present will be awarded certificates<br />
+	</td></tr></table>
+	</div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+  
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+         height:200,
+	     width:1000,
+        play: {
+          active: true,
+          auto: true,
+          interval: 6000,
+          swap: true
+        }
+      });
+    });
+  </script>
+  <br />
+</body>
+</html>
